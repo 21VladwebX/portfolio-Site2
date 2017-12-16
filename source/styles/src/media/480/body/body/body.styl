@@ -1,0 +1,49 @@
+
+
+.incut
+  margin-top: 20%;
+  margin-left: 20%;
+  display: block;
+  position: static;
+  width: 60%;
+  height: 250px;
+  background-color: red;
+
+.btn
+  width: 80%;
+  height: 50px;
+  text-transform: uppercase;
+  color: rgb(152, 55, 55);
+  border-radius:15px;
+
+  &:hover
+    box-shadow: 2px 3px 10px rgb(169, 219, 227);
+
+.body__header
+  display: grid;
+  grid-template-rows: repeat(3,100px);
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  background-color: rgb(79, 83, 85);
+
+
+  &-item
+    display: grid;
+    height: 50px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.1fr 1fr;
+    grid-column-gap: 0px;
+    justify-content: space-between;
+    margin-left: 10px;
+    position: relative;
+
+    img
+      position: absolute;
+      width: 20%;
+      top: 10%;
+
+  &-text
+    color: white;
+    margin: auto  25%;
+    text-align: center;
+    align-items: center;

@@ -3,7 +3,31 @@
 @import "src/body/header/header.styl"
 @import "src/body/body/body.styl"
 @import "src/body/footer/footer.styl"
+
+/**************** MEDIA */
+@media screen and (max-width: 980px)
+  @import "src/media/980/header/header.styl"
+  @import "src/media/980/header/body.styl"
+  @import "src/media/980/body/header/header.styl"
+  @import "src/media/980/body/body/body.styl"
+  @import "src/media/980/body/footer/footer.styl"
+
+@media screen and (max-width: 768px)
+  @import "src/media/768/header/header.styl"
+  @import "src/media/768/header/body.styl"
+  @import "src/media/768/body/header/header.styl"
+  @import "src/media/768/body/body/body.styl"
+  @import "src/media/768/body/footer/footer.styl"
+
+@media screen and (max-width: 480px)
+  @import "src/media/480/header/header.styl"
+  @import "src/media/480/header/body.styl"
+  @import "src/media/480/body/header/header.styl"
+  @import "src/media/480/body/body/body.styl"
+  @import "src/media/480/body/footer/footer.styl"
+
 *
   padding: 0;
+  margin: 0;
   text-decoration: none;
   transition:  all .9s;
